@@ -1,0 +1,34 @@
+//Diseño de la seccion envios y entregas
+.tablas-titulos h2{
+    font-family: cursive;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.table, td,th{
+    border: 1px solid rgba(0,0,0, .2);
+}
+
+.table{
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td{
+    padding: 10px 20px;
+}
+
+th {
+    background: #009ddc;
+    color: #fff;
+}
+
+tr:hover{
+    background: #e5e5e5 ;
+}

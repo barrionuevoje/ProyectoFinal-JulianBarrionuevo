@@ -1,0 +1,25 @@
+//Aqui se termina de diseñar la parte de productos destacados del index.html. Utilizando Extend para su mejor funcionamiento que recive todo del archivo "_mainProductos"
+.contendorCartas-productos{
+    @extend .contendorCartas;
+    > .ucard{
+       @extend .card; 
+       > .card__image-imagenes{
+            @extend .card__image;
+        }
+        > .card__content-contenido{
+            @extend .card__content;
+            background: skyblue
+       } 
+
+       > .card__info-informacion{
+            @extend .card__info;
+            >.card__link-enlace{
+                @extend .card__link;
+            }
+       }
+       
+    }
+}
+
+
+

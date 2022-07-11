@@ -1,0 +1,124 @@
+//Diseño de la parte de nosotros.
+
+.nosotros-texto{
+    text-align: center;
+    margin-top: 50px;
+
+    h2{
+        text-align: center;
+        margin-top: 150px;
+        margin-bottom: 110px;
+        font-family: cursive;
+        font-size: 50px;
+    }
+    .imagenOm{
+        width: 100%;
+        
+        
+        align-items: center;
+        text-align: center;
+        display: flex;
+        margin-bottom: 25px;
+        
+
+        img{
+        width: 500px;  
+        
+        margin-left: 35px;
+
+        }
+
+        p{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            text-align: center;
+            line-height: 1.5;
+            width: 50%;
+            margin-left: 50px;
+
+            
+            
+           
+            
+            
+        }
+        
+
+    }
+
+    .infoOmMasFoto{
+
+        width: 100%;
+        
+        
+        align-items: center;
+        text-align: center;
+        display: flex;
+        
+        margin-bottom: 25px;
+        
+
+        img{
+        width: 500px;  
+        
+        margin-left: 35px;
+
+        }
+
+        p{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            text-align: center;
+            line-height: 1.5;
+            width: 50%;
+            margin-left: 250px;
+
+            
+            
+           
+            
+            
+        }
+
+    }
+    .info2{
+        width: 100%;
+        
+        
+        
+       align-items: center;
+
+       img{
+        width: 500px;
+        display: flex;
+        margin: auto;
+        margin-top: 50px;
+       }
+        
+        margin-bottom: 25px;
+        p{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            
+            line-height: 1.5;
+            width: 50%;
+            display: inline-flex;
+            
+            
+
+            
+            
+           
+            
+            
+        }
+
+    }
+ 
+}

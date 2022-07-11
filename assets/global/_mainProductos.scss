@@ -1,0 +1,86 @@
+//Aqui esta parte original de productos destacados que se migra a "productosDestacados" utilizando la funcion extend por si se requiere un cambio. 
+body {
+    
+    background-color: bisque;
+    margin: 0 auto;
+}
+.tituloProductosDestacados{
+    margin-top: 20px ;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.contendorCartas{
+    margin: 0 auto;
+    max-width: 1000px;
+   
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    font-family: sans-serif;
+
+    .card{
+        box-shadow:  0 0 3px rgb(0, 0, 0, 0.1);
+
+        .card__image{
+            width: 100%;
+            display: block;
+            height: 250px;
+            
+        }
+
+        .card__content{
+            line-height: 1.5;
+            font-size: 0.9em;
+            padding: 15px;
+            background: plum;
+
+            .card__content >p:first-of-type{
+                margin-top: 0;
+            }
+
+            .card__content >p:last-of-type{
+                margin-bottom: 0;
+            }
+            
+        }
+        .card__info{
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #eeeeee;
+            font-size: 0.8em;
+            border-bottom: 2px solid #cccc;
+
+            .card__link{
+                color: black;
+                text-decoration: none;
+
+                .card__link:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Aqui termina el la seccion de productos destacados*/
